@@ -6,6 +6,6 @@ using namespace std;
 int main() {
      int cin >> a >> b;
      int lcm = std::lcm(a,b) , gcd = __gcd(a,b);
-     cout << lcm << " " << lcm;
+     cout << lcm << " " << gcd;
      return 0;
 }
